@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+
+    <body>
+        <h1><b>Registration Form</b></h1>
+
+        <form action="{{ url_for('register' )}}" method="POST">
+   
+            <label for = "name">
+                Name
+            </label>
+            
+            <br>
+    
+            <input type = "text" id = "name" name = "name" placeholder = "Enter Name" required>
+    
+            <br><br>
+    
+            <label for = "city">
+                City
+            </label>
+    
+            <br>
+    
+            <input type = "text" id = "city" name = "city" placeholder = "Enter City" required>
+    
+            <br><br>
+    
+            <label for = "city">
+                Age
+            </label>
+    
+            <br>
+    
+            <input type = "number" id = "age" name = "age" placeholder = "Enter Age" required>
+    
+            <br><br>
+    
+            <input type = "Submit" value = "Register">
+
+        </form>
+
+        <br>
+
+        <a href="/">Home</a>
+        
+    </body>
+</html>

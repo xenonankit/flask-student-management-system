@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Update</title>
+    </head>
+    <body>
+        <h1><b>Update Student Details</b></h1>
+
+        <form action = "{{ url_for('update') }}" method = "POST">
+            
+            <label for="id">
+                Id
+            </label>
+    
+            <br>
+    
+            <input
+            type = "number"
+            name = "id"
+            value = "{{ student[0] if student else'' }}"
+            required>
+
+            <input type = "Submit"
+            name = "action"
+            value = "search"
+            >
+    
+            <br><br><br>
+
+            {% if student %}
+
+            Name :
+
+            <input
+            type="text"
+            name="name"
+            value="{{ student[1] }}"
+            >
+    
+            <br><br>
+
+            City :
+
+            <input
+            type="text"
+            name="city"
+            value="{{ student[2] }}"
+            >
+    
+            <br><br>
+
+            Age :
+
+            <input
+            type="text"
+            name="age"
+            value="{{ student[3] }}"
+            >
+    
+            <br><br>
+
+            <input
+            type="submit"
+            name="action"
+            value="Update"
+            >
+
+            {% endif %}
+    
+        </form>
+
+        <a href="/">Home</a>
+        
+    </body>
+</html>
