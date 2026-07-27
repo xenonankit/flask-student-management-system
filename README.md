@@ -117,3 +117,32 @@ This project helped me understand:
 
 - GitHub: https://github.com/xenonankit
 - LinkedIn: https://linkedin.com/in/xenonankit
+
+## Screenshots
+
+### Home Page
+![Home Page](home-page.png)
+
+### Dashboard
+![Dashboard](dashboard.png)
+
+### Signup Page
+![Signup Page](signup-page.png)
+
+### Signup Success
+![Signup Success](signup-success.png)
+
+### Student Registration
+![Student Registration](student-registration.png)
+
+### Student List
+![Student List](student-list.png)
+
+### Search Student
+![Search Student](search-student.png)
+
+### Update Student
+![Update Student](update-student.png)
+
+### Delete Student
+![Delete Student](delete-student.png)
